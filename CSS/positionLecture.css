@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+.my-6{
+    margin: 2.5rem 0;
+}
+.py-6{
+    padding: 4.5rem 0 !important;
+}
+.footTop{
+margin-top: 120px;
+}
+
+body{
+    margin: 0; 
+    /* height: 6000000px; */
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    outline: none!important;
+}
+.product{
+    margin-top: 120px;
+}
+.itemWrraper{
+    display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.item{
+    background-color: #474747;
+    width: 100%;
+    border-radius: 3px;
+    margin: .5%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.item span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #939393;
+    padding: 11px;
+    border-radius: 0px 3px 0px 24px;
+    color: white;
+    -webkit-border-radius: 0px 3px 0px 24px;
+    -moz-border-radius: 0px 3px 0px 24px;
+    -ms-border-radius: 0px 3px 0px 24px;
+    -o-border-radius: 0px 3px 0px 24px;
+}
+.info{
+    padding: 15px;
+    text-align: center;
+}
+.info h3{
+    color: white;
+    font-size: 20px;
+}
+.img-wapp{
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    border-radius: 2px 2px 0px 0px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-border-radius: 2px 2px 0px 0px;
+    -moz-border-radius: 2px 2px 0px 0px;
+    -ms-border-radius: 2px 2px 0px 0px;
+    -o-border-radius: 2px 2px 0px 0px;
+}
+.item:hover .img-wapp img{
+     transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     -o-transform: scale(1.1);
+}
+button:hover{
+ background: #26be35;
+color: #ffffff;
+}
+button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background: #22b130;
+    color: #ededed;
+    font-size: 12px;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+    margin: 10px 0px;
+    transition: all .4s ease-out ;
+    -webkit-transition: all .4s ease-out ;
+    -moz-transition: all .4s ease-out ;
+    -ms-transition: all .4s ease-out ;
+    -o-transition: all .4s ease-out ;
+}
+.info p{
+    margin: 24px 0px;
+color: #cbcbcb;
+}
+.carousell button:hover {
+    background: transparent;
+}
+ .heading h2 {
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+}
+.heading p {
+    width: 81%;
+        font-size: 18px;
+        margin: 50px 0;
+        color: gray;
+        font-weight: lighter;
+}
+.secWapper{
+   background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/20794.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 30vh;
+
+}
+.secWapper .dataWrapper h2{
+    color:  white;
+
+}
+.secWapper .dataWrapper{
+background-color: rgba(0, 0, 0, 0.333);
+height: 30vh;
+
+}
+
+
+.owl-dots {
+    display: flex;
+margin: -34px 48%;
+
+}
+.layout img{
+    border-radius: 22px;
+}
+.social a ,.Spart a{
+    text-decoration: none!important;
+    color: rgb(201, 201, 201) !important;
+}
+
+
+.social a {
+    margin: 5px;
+}
+
+
+
+
+@media (min-width:700px){
+
+    .item{
+        width: 23%;
+    }
+    .heading h2 {
+        font-size: 2.5rem !important;
+    }
+    .heading p {
+            width: 50%;
+    }
+   
+
+
+}
+/*  Mobile lyout  */
+@media (max-width:700px){
+    img{
+        width: 100%;
+    }
+    button.navbar-toggler.collapsed,button:focus:not(:focus-visible),button.navbar-toggler{
+        width: 16% !important ;
+    }
+    .owl-dots {
+        margin: 5px auto;
+        }
+    
+   
+}
